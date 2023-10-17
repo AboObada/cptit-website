@@ -1,0 +1,26 @@
+//  font-family
+@font-face {
+    font-family: 'nexa-light';
+    src: url(../../fonts/Nexa\ Light.otf);
+}
+@font-face {
+    font-family: nexa-bold;
+    src: url(../../fonts/Nexa\ Bold.otf);
+}
+:root {
+    --myLightFont: nexa-light;
+    --myBoldFont: nexa-bold;
+}
+ /* Global Colors */
+ :root {
+--maincolor:#21aaff;
+--secondcolor:#2f6c9a;
+ }
+ /* Smooth scroll */
+ :root {
+    scroll-behavior: smooth;
+  }
+// font-size
+:root {
+
+}

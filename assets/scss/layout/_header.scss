@@ -1,0 +1,24 @@
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .6s;
+    background-color: #fff !important;
+    box-shadow: 0 0 15px rgb(0 0 0 / 17%);
+    .navbar-brand {
+        .logo_w {
+            display: none !important;
+        }
+        .logo_d {
+            display: block !important;
+        }
+    }
+    .nav-link.scroll {
+        color: var(--secondcolor) !important;
+    }
+    .nav-link::before {
+        background-color: var(--secondcolor) !important;
+    }
+    .nav-link.scroll:hover {
+        color: var(--secondcolor) !important;
+    }
+}

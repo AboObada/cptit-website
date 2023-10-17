@@ -1,0 +1,219 @@
+body {
+  direction: rtl;
+}
+
+.first_section .logo-shape {
+  left: unset;
+  right: -50px;
+}
+.first_section .logo-shape img {
+  transform: rotateY(180deg);
+}
+
+.first_section .bunner-slider .blog-slider__content {
+  padding-right: 0;
+  padding-left: 25px;
+  text-align: right;
+}
+
+.first_section .bunner-slider .blog-slider__img::before {
+  left: unset;
+  right: -11px;
+  border-radius: 2px 130px 2px;
+}
+
+.first_section .bunner-slider .blog-slider__img::after {
+  right: unset;
+  left: -11px;
+}
+
+.first_section .bunner-slider .blog-slider__img img {
+  border-radius: 10px 130px 10px 10px;
+}
+
+.first_section .bunner-slider .blog-slider__pagination {
+  left: 0px !important;
+  right: auto !important;
+}
+
+.testimonials .testi-corner {
+  left: unset;
+  right: -50px;
+}
+.testimonials .testi-corner img {
+  transform: rotateY(180deg);
+}
+
+.testimonials::after {
+  right: unset;
+  left: 0;
+  background-color: #1e1b2c #21aaff #21aaff #1e1b2c;
+}
+
+.testimonials .blog-slider__img {
+  transform: translateX(80px);
+}
+
+.testimonials .blog-slider__content {
+  padding-right: 0;
+  padding-left: 25px;
+  text-align: right;
+}
+
+.testimonials .blog-slider__pagination {
+  right: unset;
+  left: 25px !important;
+}
+
+.footer .subscribe-area .title {
+  text-align: right;
+}
+
+.footer .content .white-logo {
+  text-align: right;
+}
+
+.footer .content .social-links {
+  text-align: right;
+}
+
+.footer .content .title {
+  text-align: right;
+}
+.footer .content .title::before {
+  left: unset;
+  right: 0;
+}
+
+.footer .content ul {
+  text-align: right;
+}
+
+.footer .content ul li::before {
+  left: unset;
+  right: -20px;
+}
+
+.footer .content .contact-list .info .info-icon {
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+.bunner .title {
+  left: unset;
+  right: 5%;
+}
+
+.about-section .img-box {
+  margin-left: unset;
+  margin-right: auto;
+}
+.about-section .img-box .about-img {
+  border-radius: 10px 150px 10px 10px;
+}
+.about-section .img-box .shape-dots {
+  left: 0;
+}
+
+.about-section .tabs .nav-tabs {
+  padding-inline-start: unset;
+}
+
+.expertise .flip-box .flip-box-inner .flip-box-back ul {
+  text-align: right;
+}
+
+.expertise .flip-box .flip-box-inner .flip-box-back .find-btn::before {
+  left: unset;
+  right: -2px;
+}
+
+.services .left-side .title {
+  text-align: right;
+}
+
+.services .right-side .service-box .service-num {
+  right: unset;
+  left: 2rem;
+}
+
+.services .right-side .active .service-content .service-text {
+  text-align: right;
+}
+
+.services .right-side .service-box .read-more i {
+  margin-left: unset;
+  margin-right: 10px;
+}
+
+.contact .row .pl-0 {
+  padding-left: unset !important;
+  padding-right: 0 !important;
+}
+
+.contact .row .pr-0 {
+  padding-right: unset !important;
+  padding-left: 0 !important;
+}
+
+.contact .location-side p {
+  text-align: right;
+}
+
+.contact .location-side .info-panel {
+  text-align: right;
+}
+.contact .location-side .info-panel .info-icon {
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+.contact .message-side {
+  text-align: right;
+}
+
+.contact .message-side .input-area .input-box .input-label {
+  left: unset;
+  right: 0;
+}
+
+.contact .message-side .input-area .more-btn {
+  margin-right: auto;
+}
+.contact .message-side .input-area .more-btn::before {
+  left: unset;
+  right: -2px;
+}
+
+.sys-admin .left-side .sidebar .title {
+  text-align: right;
+}
+.sys-admin .left-side .sidebar .sidebar-list li {
+  text-align: right;
+}
+.sys-admin .left-side .sidebar .sidebar-list li i {
+  margin-right: unset;
+  margin-left: 10px;
+  transform: rotate(180deg);
+}
+
+.sys-admin .right_side p {
+  text-align: right;
+}
+.sys-admin .right_side .primary-title {
+  text-align: right;
+}
+.sys-admin .right_side .primary-title::after {
+  left: unset;
+  right: 0;
+}
+.sys-admin .right_side .secondary-title {
+  text-align: right;
+}
+.sys-admin .right_side ul li {
+  text-align: right;
+}
+.sys-admin .right_side ul li .img-box {
+  margin-right: unset;
+  margin-left: 10px;
+}/*# sourceMappingURL=main-rtl.css.map */
