@@ -1,0 +1,76 @@
+.faq {
+    padding: 100px 0;
+    .card {
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        background-color: #e3e3e3;
+        .accordion {
+            .accordion-item {
+                background-color: rgba(0,0,0,0.03);
+                border: 1px solid #00000020;
+                margin: 10px;
+                border-radius: 5px;
+                h2 {
+                    position: relative;
+                    align-items: center;
+                    display: flex;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    background: #f8f9fa;
+                    padding: 11px 17px;
+                    font-size: 15px;
+                    height: 75px;
+                    margin-bottom: 0;
+                    figure {
+                        margin-bottom: 0;
+                        margin-right: 20px;
+                        width: 45px;
+                        transition: 1s all;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    i {
+                        cursor: pointer;
+                        margin-top: 4px;
+                        font-size: 20px;
+                        text-align: center;
+                        color: var(--secondarycolor);
+                        margin-left: auto;
+                        transition: 1s all;
+                    }
+                    .qs {
+                        line-height: 1.6;
+                        color: var(--maincolor);
+                        font-weight: bold;
+                        padding-top: 10px;
+                        font-size: 20px;
+                        margin-bottom: 0;
+                    }
+                    &[aria-expanded ="true"] figure{
+                        -webkit-transform: rotateY(180deg);
+                        -moz-transform: rotateY(180deg);
+                        transform: rotateY(180deg);
+                        transition:1s all;
+                    }
+                    &[aria-expanded ="true"] i{
+                        -webkit-transform: rotate(-180deg);
+                        -moz-transform: rotate(-180deg);
+                        transform: rotate(-180deg);
+                        transition:1s all;
+                    }
+                }
+                .accordion-body {
+                    background: #fff;
+                    border: 1px solid #00000020;
+                    padding: 1rem 1.25rem;
+                    border-radius: 5px;
+                    p {
+                        text-align: justify;
+                        color: var(--secondarycolor);
+                    }
+                }
+            }
+        }
+    }
+}
