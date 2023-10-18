@@ -103,6 +103,9 @@ body {
   left: unset;
   right: 5%;
 }
+.bunner .title ul {
+  padding-right: 0;
+}
 
 .about-section .img-box {
   margin-left: unset;
@@ -216,4 +219,82 @@ body {
 .sys-admin .right_side ul li .img-box {
   margin-right: unset;
   margin-left: 10px;
+}
+
+.product-content-inner {
+  text-align: right;
+}
+
+.products .product-box .product-inner .product-content .product-content-inner p {
+  text-align: right;
+}
+
+.products .product-box .product-inner .product-content .product-content-inner .product-icon i {
+  float: left;
+}
+
+.products .product-box .product-inner .product-content::after {
+  right: unset;
+  left: 0;
+  border-radius: 0px 55px 0px 5px;
+}
+
+.products .product-box .product-inner .product-content::before {
+  right: unset;
+  left: 0;
+  border-radius: 0px 55px 0px 5px;
+}
+
+.faq .card .accordion .accordion-item h2 figure {
+  margin-right: unset;
+  margin-left: 20px;
+}
+.faq .card .accordion .accordion-item h2 i {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+.blog-cpt .blog-sidebar {
+  margin-left: unset;
+  margin-right: 4rem;
+}
+.blog-cpt .blog-sidebar .search-box .search-form .search-input {
+  text-align: right;
+}
+.blog-cpt .blog-sidebar .search-box .search-form .search-btn {
+  right: unset;
+  left: 0;
+}
+.blog-cpt .blog-sidebar .sidebar-content .category-title {
+  text-align: right;
+}
+.blog-cpt .blog-sidebar .sidebar-content .category-title::before {
+  left: unset;
+  right: 0;
+}
+.blog-cpt .blog-sidebar .sidebar-content .category-list li {
+  text-align: right;
+}
+.blog-cpt .blog-sidebar .sidebar-content .category-list li:hover i {
+  transform: translateX(-5px);
+}
+.blog-cpt .blog-sidebar .sidebar-content .category-list li i {
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+.blog-cpt .posts .post-box .post-img .post-date {
+  left: unset;
+  right: 0.75rem;
+}
+.blog-cpt .posts .post-box .post-summary {
+  text-align: right;
+}
+.blog-cpt .posts .post-box .post-summary .post-category a i {
+  margin-right: unset;
+  margin-left: 10px;
+}
+.blog-cpt .posts .post-box .post-summary .post-text .read-more i {
+  margin-left: unset;
+  margin-right: 10px;
 }/*# sourceMappingURL=main-rtl.css.map */

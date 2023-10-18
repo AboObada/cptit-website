@@ -1,9 +1,9 @@
 .faq {
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     .card {
         padding: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-        background-color: #e3e3e3;
+        background-color: var(--bgcardcolor);
         .accordion {
             .accordion-item {
                 background-color: rgba(0,0,0,0.03);

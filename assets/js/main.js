@@ -130,3 +130,10 @@ var swiper = new Swiper('.blog-slider', {
     autoStart: true,
     loop: true,
   });
+
+  const preloader = document.querySelector('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }

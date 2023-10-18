@@ -81,10 +81,18 @@ body {
     margin-right: unset;
     margin-left: 10px;
 }
+
+
+
+
 // about us page
+
 .bunner .title {
     left: unset;
     right: 5%;
+    ul {
+        padding-right: 0;
+    }
 }
 .about-section .img-box {
     margin-left: unset;
@@ -99,6 +107,10 @@ body {
 .about-section .tabs .nav-tabs {
     padding-inline-start: unset
 }
+
+
+
+
 // expertise page
 .expertise .flip-box .flip-box-inner .flip-box-back ul {
     text-align: right;
@@ -107,6 +119,10 @@ body {
     left: unset;
     right: -2px;
 }
+
+
+
+
 // services page
 .services .left-side .title {
     text-align: right;
@@ -122,6 +138,10 @@ body {
     margin-left: unset;
     margin-right: 10px;
 }
+
+
+
+
 // contact us page
 .contact .row .pl-0 {
     padding-left: unset !important;
@@ -155,6 +175,10 @@ body {
         right: -2px;
     }
 }
+
+
+
+
 // sys-admin page
 .sys-admin .left-side .sidebar {
     .title {
@@ -191,3 +215,98 @@ body {
         }
     }
 }
+
+
+
+
+// Products page
+.product-content-inner {
+    text-align: right;
+}
+.products .product-box .product-inner .product-content .product-content-inner p {
+    text-align: right;
+}
+.products .product-box .product-inner .product-content .product-content-inner .product-icon i {
+    float: left;
+}
+.products .product-box .product-inner .product-content::after {
+    right: unset;
+    left: 0;
+    border-radius: 0px 55px 0px 5px;
+}
+.products .product-box .product-inner .product-content::before {
+    right: unset;
+    left: 0;
+    border-radius: 0px 55px 0px 5px;
+}
+
+
+
+
+// FAQ page
+.faq .card .accordion .accordion-item h2 {
+    figure {
+        margin-right: unset;
+        margin-left: 20px;
+    }
+    i {
+        margin-left: unset;
+        margin-right: auto;
+    }
+}
+// blog page
+.blog-cpt .blog-sidebar {
+    margin-left: unset;
+    margin-right: 4rem;
+    .search-box {
+        .search-form {
+            .search-input {
+                text-align: right;
+            }
+            .search-btn {
+                right: unset;
+                left: 0;
+            }
+        }
+    }
+    .sidebar-content {
+        .category-title {
+            text-align: right;
+            &::before {
+                left: unset;
+                right: 0;
+            }
+        }
+        .category-list {
+            li {
+                text-align: right;
+                &:hover {
+                    i {
+                       transform: translateX(-5px);
+                    }
+                }
+                i {
+                    margin-right: unset;
+                    margin-left: 10px;
+                }
+            }
+        }
+    } 
+}
+.blog-cpt .posts .post-box {
+    .post-img .post-date {
+        left: unset;
+        right: 0.75rem;
+    }
+    .post-summary {
+        text-align: right;
+        .post-category a i {
+            margin-right: unset;
+            margin-left: 10px;
+        }
+        .post-text .read-more i {
+            margin-left: unset;
+            margin-right: 10px;
+        }
+    }
+} 
