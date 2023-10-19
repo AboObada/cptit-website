@@ -5,11 +5,14 @@
         background-color: transparent;
         z-index: 999;
         .navbar-brand {
-            .logo_d {
-                display: none;
-            }
-            .logo_w {
-                display: block;
+            // .logo_d {
+            //     display: none;
+            // }
+            // .logo_w {
+            //     display: block;
+            // }
+            img {
+                filter: brightness(0) invert(1);
             }
         }
         .navbar-toggler {
@@ -387,11 +390,14 @@
     background-color: #fff !important;
     box-shadow: 0 0 15px rgb(0 0 0 / 17%);
     .navbar-brand {
-        .logo_w {
-            display: none !important;
-        }
-        .logo_d {
-            display: block !important;
+        // .logo_w {
+        //     display: none !important;
+        // }
+        // .logo_d {
+        //     display: block !important;
+        // }
+        img {
+            filter: unset !important;
         }
     }
     .nav-link.scroll {

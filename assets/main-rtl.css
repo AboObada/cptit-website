@@ -99,6 +99,15 @@ body {
   margin-left: 10px;
 }
 
+.footer .content .contact-list li .initial-link i {
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+.footer .content .contact-list li .initial-link:hover {
+  transform: translateX(-10px);
+}
+
 .bunner .title {
   left: unset;
   right: 5%;
