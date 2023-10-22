@@ -125,11 +125,11 @@ var swiper = new Swiper('.blog-slider', {
     }
   });
 
-  new Typewriter('#typewriter', {
-    // strings: ['Hello', 'World'],
-    autoStart: true,
-    loop: true,
-  });
+  // new Typewriter('#typewriter', {
+  //   // strings: ['Hello', 'World'],
+  //   autoStart: true,
+  //   loop: true,
+  // });
 
   const preloader = document.querySelector('#preloader');
   if (preloader) {
@@ -137,3 +137,30 @@ var swiper = new Swiper('.blog-slider', {
       preloader.remove();
     });
   }
+
+  // chat bot
+  $(".open-chat").click(function() {
+    console.log("open");
+    $('#chat-popup').toggle(function() {
+        $('#chat-popup').show();
+    });
+});
+//   $(".open-chat").click(function() {
+//     console.log("open");
+//     $('#chat-popup').toggle(function() {
+//         $('#chat-popup').hide();
+//     });
+// });
+
+
+$(".open-chat").click(function() {
+$(".open-chat i").toggleClass("fas fa-times");
+});
+
+
+  $(".close_img_btn").click(function() {
+    $('#chat-popup').toggle(function() {
+        $('#chat-popup').hide();
+        
+    });
+});
