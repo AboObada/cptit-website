@@ -1,6 +1,6 @@
 body {
     direction: rtl;
-    font-family: sans-serif !important;
+    font-family: var(--arabicRegularFont) !important;
 }
 // home page
 .first_section .logo-shape {
@@ -317,3 +317,8 @@ body {
         }
     }
 } 
+// chat bot
+.chat_header figure {
+    margin-right: unset;
+    margin-left: 1rem;
+}

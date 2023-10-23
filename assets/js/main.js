@@ -139,12 +139,51 @@ var swiper = new Swiper('.blog-slider', {
   }
 
   // chat bot
-  $(".open-chat").click(function() {
-    console.log("open");
-    $('#chat-popup').toggle(function() {
-        $('#chat-popup').show();
-    });
-});
+
+  function openDialogue(dialogue, dialogueHeight) {
+    hideDialougue(dialogueHeight);
+    let div = document.getElementById(dialogue);
+    console.log(div);
+    if(div) {
+      div.style.bottom = '0px'
+    }else if(div.style.bottom == '0px') {
+      div.style.bottom = dialogueHeight;
+    }
+  } 
+  
+  function minimizeDialogue(dialogue, dialogueHeight) {
+    let div = document.getElementById(dialogue);
+    let minimize = document.getElementById('minimize'+ dialogue);
+    let maximize = document.getElementById('maximize' + dialogue);
+    console.log(maximize);
+    console.log(minimize);
+    if(div.style.bottom == '0px') {
+      div.style.bottom = dialogueHeight;
+      minimize.style.display = 'none';
+      maximize.style.display = 'block';
+    }
+    else {
+      div.style.bottom = '0px';
+      minimize.style.display = 'block';
+      maximize.style.display = 'none';
+    }
+  }
+  
+  function  hideDialougue(dialogue, dialogueHeight) {
+      let div = document.getElementById(dialogue);
+      if(div) {
+        // div.style.display = 'none'
+        div.style.bottom = dialogueHeight;
+      }
+  }
+  
+
+//   $(".open-chat").click(function() {
+//     console.log("open");
+//     $('#chat-popup').toggle(function() {
+//         $('#chat-popup').show();
+//     });
+// });
 //   $(".open-chat").click(function() {
 //     console.log("open");
 //     $('#chat-popup').toggle(function() {
@@ -153,14 +192,14 @@ var swiper = new Swiper('.blog-slider', {
 // });
 
 
-$(".open-chat").click(function() {
-$(".open-chat i").toggleClass("fas fa-times");
-});
+// $(".open-chat").click(function() {
+// $(".open-chat i").toggleClass("fas fa-times");
+// });
 
 
-  $(".close_img_btn").click(function() {
-    $('#chat-popup').toggle(function() {
-        $('#chat-popup').hide();
+//   $(".close_img_btn").click(function() {
+//     $('#chat-popup').toggle(function() {
+//         $('#chat-popup').hide();
         
-    });
-});
+//     });
+// });

@@ -310,9 +310,17 @@
     }
   }
   .foot-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
     border-top: 1px solid #7c7c7c;
-    img {
-        filter: brightness(0) invert(1);
+    figure {
+        margin: 0;
+        width: 180px;
+        img {
+            filter: brightness(0) invert(1);
+        }
     }
   }
 }

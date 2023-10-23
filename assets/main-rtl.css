@@ -1,6 +1,6 @@
 body {
   direction: rtl;
-  font-family: sans-serif !important;
+  font-family: var(--arabicRegularFont) !important;
 }
 
 .first_section .logo-shape {
@@ -307,4 +307,9 @@ body {
 .blog-cpt .posts .post-box .post-summary .post-text .read-more i {
   margin-left: unset;
   margin-right: 10px;
+}
+
+.chat_header figure {
+  margin-right: unset;
+  margin-left: 1rem;
 }/*# sourceMappingURL=main-rtl.css.map */

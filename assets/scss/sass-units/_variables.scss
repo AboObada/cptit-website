@@ -1,15 +1,25 @@
 //  font-family
 @font-face {
-    font-family: 'nexa-light';
-    src: url(../../fonts/Nexa\ Light.otf);
+    font-family: nexa-light;
+    src: url(../../fonts/Nexa-Light.otf);
 }
 @font-face {
     font-family: nexa-bold;
-    src: url(../../fonts/Nexa\ Bold.otf);
+    src: url(../../fonts/Nexa-Bold.otf);
+}
+@font-face {
+    font-family: marai-regular;
+    src: url(../../fonts/Almarai/Almarai-Regular.ttf);
+}
+@font-face {
+    font-family: marai-bold;
+    src: url(../../fonts/Almarai/Almarai-Bold.ttf);
 }
 :root {
-    --myLightFont: nexa-light;
-    --myBoldFont: nexa-bold;
+    --englishLightFont: nexa-light;
+    --englishBoldFont: nexa-bold;
+    --arabicRegularFont: marai-regular;
+    --arabicBoldFont: marai-bold;
 }
  /* Global Colors */
  :root {
