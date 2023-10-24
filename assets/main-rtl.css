@@ -33,7 +33,7 @@ body {
 }
 
 .first_section .bunner-slider .blog-slider__pagination {
-  left: 0px !important;
+  left: -20px !important;
   right: auto !important;
 }
 
