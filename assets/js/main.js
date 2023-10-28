@@ -141,12 +141,12 @@ var swiper = new Swiper('.blog-slider', {
   // chat bot
 
   function openDialogue(dialogue, dialogueHeight) {
-    hideDialougue(dialogueHeight);
+    // hideDialougue(dialogueHeight);
     let div = document.getElementById(dialogue);
-    console.log(div);
-    if(div) {
+    console.log(div.style.bottom, dialogueHeight);
+    if(div.style.bottom == '' || div.style.bottom == dialogueHeight) {
       div.style.bottom = '0px'
-    }else if(div.style.bottom == '0px') {
+    }else {
       div.style.bottom = dialogueHeight;
     }
   } 
