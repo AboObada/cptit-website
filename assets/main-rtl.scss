@@ -317,6 +317,16 @@ body {
         }
     }
 } 
+.footer .subscribe-area .subscribe_form  {
+    input {
+    text-align: right;
+    }
+    button {
+        right: unset;
+        left: 24px;
+    }
+}
+
 // chat bot
 .chat_header figure {
     margin-right: unset;
