@@ -2071,7 +2071,7 @@ a {
 }
 .products .product-box {
   overflow: hidden;
-  margin-bottom: 110px;
+  margin-bottom: 140px;
   transition: 0.5s;
   text-align: left;
   border-radius: 10px;
@@ -2514,29 +2514,29 @@ a {
   text-align: left;
   margin-top: 200px;
 }
-.services .left-side {
+.services .services-text {
   text-align: left;
 }
-.services .left-side .main-title {
+.services .services-text .main-title {
   font-size: 20px;
   color: #21aaff !important;
   margin: 0 0 1rem 1rem;
 }
-.services .left-side .main-title::before {
+.services .services-text .main-title::before {
   height: 2px;
   background-color: #21aaff !important;
 }
-.services .left-side .main-title::after {
+.services .services-text .main-title::after {
   height: 2px;
   background-color: #21aaff !important;
 }
-.services .left-side .title {
+.services .services-text .title {
   color: #2f6c9a;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 2rem;
 }
-.services .left-side .more-btn {
+.services .services-text .more-btn {
   margin-top: 4rem;
   outline: none;
   text-decoration: none;
@@ -2557,14 +2557,14 @@ a {
   background: #21aaff;
   box-shadow: 0 3px 24px rgba(0, 0, 0, 0.1);
 }
-.services .left-side .more-btn i {
+.services .services-text .more-btn i {
   margin-left: 8px;
   color: #fff;
 }
-.services .left-side .more-btn:hover {
+.services .services-text .more-btn:hover {
   color: #fff;
 }
-.services .left-side .more-btn::before {
+.services .services-text .more-btn::before {
   position: absolute;
   content: "";
   left: -2px;
@@ -2578,34 +2578,36 @@ a {
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
 }
-.services .left-side .more-btn:hover::before {
+.services .services-text .more-btn:hover::before {
   width: 105%;
   height: 105%;
 }
-.services .right-side .service-box {
+.services .services-cards .service-box {
   position: relative;
   border-radius: 0.5rem;
   padding: 2rem;
+  height: 350px;
   border: 1px solid #21aaff;
   box-shadow: 0px 0px 10px 0px rgba(6, 9, 34, 0.1);
   transition: all 0.3s ease-in-out 0s;
   z-index: 0;
   background-color: #fff;
+  margin-bottom: 2rem;
 }
-.services .right-side .service-box .service-icon {
+.services .services-cards .service-box .service-icon {
   width: 70px;
   height: 70px;
   margin-bottom: 1rem;
   transition: all 0.3s ease-in-out 0s;
 }
-.services .right-side .service-box .service-icon .w-img {
+.services .services-cards .service-box .service-icon .w-img {
   display: none;
 }
-.services .right-side .service-box .service-icon img {
+.services .services-cards .service-box .service-icon img {
   width: 100%;
   transition: all 0.3s ease-in-out 0s;
 }
-.services .right-side .service-box .service-num {
+.services .services-cards .service-box .service-num {
   font-size: 5rem;
   font-weight: 900;
   position: absolute;
@@ -2615,17 +2617,17 @@ a {
   opacity: 0.2;
   line-height: 1;
 }
-.services .right-side .service-box .service-content {
+.services .services-cards .service-box .service-content {
   margin-bottom: 1.5rem;
 }
-.services .right-side .service-box .service-content .service-title {
+.services .services-cards .service-box .service-content .service-title {
   text-transform: capitalize;
   font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 1.25rem;
   color: #060922;
 }
-.services .right-side .service-box .service-content .service-text {
+.services .services-cards .service-box .service-content .service-text {
   text-align: left;
   font-size: 1rem;
   font-weight: 500;
@@ -2634,7 +2636,7 @@ a {
   color: #4e4e4e;
   opacity: 0.85;
 }
-.services .right-side .service-box .read-more {
+.services .services-cards .service-box .read-more {
   text-transform: capitalize;
   text-decoration: none;
   color: #21aaff;
@@ -2645,56 +2647,63 @@ a {
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
 }
-.services .right-side .service-box .read-more i {
+.services .services-cards .service-box .read-more i {
   font-size: 1.5rem;
   margin-left: 10px;
   transition: transform 0.3s ease-in-out 0s;
 }
-.services .right-side .service-box .read-more:hover i {
+.services .services-cards .service-box .read-more:hover i {
   transform: translateX(5px);
 }
-.services .right-side .active {
+.services .services-cards .service-box.mar_b {
+  margin-bottom: 30px;
+}
+.services .services-cards .service-box.mar_t {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.services .services-cards .active {
   background-color: #21aaff;
 }
-.services .right-side .active .service-icon .c-img {
+.services .services-cards .active .service-icon .c-img {
   display: none;
 }
-.services .right-side .active .service-icon .w-img {
+.services .services-cards .active .service-icon .w-img {
   display: block;
 }
-.services .right-side .active .service-num {
+.services .services-cards .active .service-num {
   opacity: 0.3;
 }
-.services .right-side .active .service-content .service-title {
+.services .services-cards .active .service-content .service-title {
   color: #fff;
 }
-.services .right-side .active .service-content .service-text {
+.services .services-cards .active .service-content .service-text {
   color: #fff;
   opacity: 0.75;
 }
-.services .right-side .active .read-more {
+.services .services-cards .active .read-more {
   color: #fff;
 }
-.services .right-side .service-box:hover {
+.services .services-cards .service-box:hover {
   background-color: #21aaff;
 }
-.services .right-side .service-box:hover .service-icon .c-img {
+.services .services-cards .service-box:hover .service-icon .c-img {
   display: none;
 }
-.services .right-side .service-box:hover .service-icon .w-img {
+.services .services-cards .service-box:hover .service-icon .w-img {
   display: block;
   transform: rotateY(180deg);
 }
-.services .right-side .service-box:hover .service-num {
+.services .services-cards .service-box:hover .service-num {
   opacity: 1;
 }
-.services .right-side .service-box:hover .service-content {
+.services .services-cards .service-box:hover .service-content {
   margin-bottom: 1.5rem;
 }
-.services .right-side .service-box:hover .service-content .service-title, .services .right-side .service-box:hover .service-content .service-text {
+.services .services-cards .service-box:hover .service-content .service-title, .services .services-cards .service-box:hover .service-content .service-text {
   color: #fff;
 }
-.services .right-side .service-box:hover .read-more {
+.services .services-cards .service-box:hover .read-more {
   color: #fff;
 }
 
@@ -3535,6 +3544,10 @@ a {
   }
   .about-section .img-box .shape-dots {
     top: 0;
+  }
+  .services .service-box {
+    margin-bottom: 2rem !important;
+    margin-top: 0 !important;
   }
   .services .service-heading {
     margin-top: 0;

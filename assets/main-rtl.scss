@@ -131,17 +131,17 @@ body {
 
 
 // services page
-.services .left-side .title {
+.services .service-heading .title {
     text-align: right;
 }
-.services .right-side .service-box .service-num {
+.services .services-cards .service-box .service-num {
     right: unset;
     left: 2rem;
 }
-.services .right-side .active .service-content .service-text {
+.services .services-cards .active .service-content .service-text {
     text-align: right;
 }
-.services .right-side .service-box .read-more i {
+.services .services-cards .service-box .read-more i {
     margin-left: unset;
     margin-right: 10px;
 }
