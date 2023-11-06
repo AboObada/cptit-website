@@ -1432,7 +1432,7 @@ a {
 .customers .slider .slide-track .slide img {
   width: 300px;
   height: 150px;
-  animation: scroll 60s linear infinite;
+  animation: scroll 8s linear infinite;
 }
 
 .bunner_about {
@@ -1935,7 +1935,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.sys-admin .left-side .sidebar {
+.sys-admin .images-side .sidebar {
   background-image: url(../images/about-bg.png);
   background-size: auto;
   background-repeat: no-repeat;
@@ -1944,7 +1944,7 @@ a {
   border-radius: 10px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
-.sys-admin .left-side .sidebar .title {
+.sys-admin .images-side .sidebar .title {
   padding: 10px 13px;
   font-size: 22px;
   color: #222;
@@ -1952,20 +1952,20 @@ a {
   border-left: 4px solid #2f6c9a;
   border-radius: 5px;
 }
-.sys-admin .left-side .sidebar .sidebar-list {
+.sys-admin .images-side .sidebar .sidebar-list {
   margin-top: 2rem;
   color: #222;
   line-height: 3;
   list-style: none;
   padding-left: 0;
 }
-.sys-admin .left-side .sidebar .sidebar-list li {
+.sys-admin .images-side .sidebar .sidebar-list li {
   cursor: pointer;
   display: flex;
   align-items: center;
   padding-left: 40px;
 }
-.sys-admin .left-side .sidebar .sidebar-list li p {
+.sys-admin .images-side .sidebar .sidebar-list li p {
   margin-bottom: 0;
   background: linear-gradient(to right, #21aaff, 50%, #222 50%);
   -webkit-text-fill-color: transparent;
@@ -1974,31 +1974,31 @@ a {
   background-position: 100%;
   transition: 0.3s;
 }
-.sys-admin .left-side .sidebar .sidebar-list li i {
+.sys-admin .images-side .sidebar .sidebar-list li i {
   margin-right: 1rem;
 }
-.sys-admin .left-side .sidebar .sidebar-list li:hover {
+.sys-admin .images-side .sidebar .sidebar-list li:hover {
   border-left: 4px solid #2f6c9a;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0px 0px 2px 0px #6c6c6c;
 }
-.sys-admin .left-side .sidebar .sidebar-list li:hover p {
+.sys-admin .images-side .sidebar .sidebar-list li:hover p {
   background-position: 0;
   transform: translateX(10px);
 }
-.sys-admin .left-side .img-box {
+.sys-admin .images-side .img-box {
   position: relative;
   width: 320px;
   height: 280px;
   margin-top: 10rem;
 }
-.sys-admin .left-side .img-box img {
+.sys-admin .images-side .img-box img {
   width: 100%;
   height: 100%;
   border-radius: 7px;
 }
-.sys-admin .left-side .img-box .overlay {
+.sys-admin .images-side .img-box .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -2011,15 +2011,15 @@ a {
   justify-content: center;
   border-radius: 7px;
 }
-.sys-admin .left-side .img-box .overlay h2 {
+.sys-admin .images-side .img-box .overlay h2 {
   text-align: center;
   font-weight: 600;
 }
-.sys-admin .right_side .img-box img {
+.sys-admin .text-side .img-box img {
   width: 100%;
   border-radius: 10px;
 }
-.sys-admin .right_side .primary-title {
+.sys-admin .text-side .primary-title {
   position: relative;
   color: #2f6c9a;
   font-size: 30px;
@@ -2028,7 +2028,7 @@ a {
   width: fit-content;
   margin: 2rem 0 1rem;
 }
-.sys-admin .right_side .primary-title::after {
+.sys-admin .text-side .primary-title::after {
   position: absolute;
   content: "";
   width: 50%;
@@ -2038,29 +2038,29 @@ a {
   left: 0;
   background-color: #2f6c9a;
 }
-.sys-admin .right_side p {
+.sys-admin .text-side p {
   color: #4e4e4e;
 }
-.sys-admin .right_side .secondary-title {
+.sys-admin .text-side .secondary-title {
   color: #21aaff;
   font-size: 22px;
   margin: 1rem 0;
 }
-.sys-admin .right_side ul {
+.sys-admin .text-side ul {
   list-style: none;
   padding-left: 0;
 }
-.sys-admin .right_side ul li {
+.sys-admin .text-side ul li {
   display: flex;
   color: #4e4e4e;
   margin-bottom: 10px;
 }
-.sys-admin .right_side ul li .img-box {
+.sys-admin .text-side ul li .img-box {
   width: 30px;
   height: 30px;
   margin-right: 10px;
 }
-.sys-admin .right_side ul li .img-box img {
+.sys-admin .text-side ul li .img-box img {
   width: 100%;
   height: 100%;
 }
@@ -3558,6 +3558,12 @@ a {
   .first_section .navbar .nav-link::before {
     width: 5%;
     left: 25px;
+  }
+  .sys-admin .text-side .main_img img {
+    margin-top: 2rem;
+  }
+  .sys-admin .images-side .img-box {
+    margin-top: 3rem;
   }
 }
 @media (max-width: 470px) {
