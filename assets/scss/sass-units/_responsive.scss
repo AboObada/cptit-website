@@ -19,6 +19,9 @@
     .testimonials .blog-slider__code, .testimonials .blog-slider__title {
         margin-bottom: 12px;
     }
+    .maintenance .maintenance-box {
+        width: 100%;
+    }
 }
 @media (max-width:1000px) {
     .parteners .owl-item .item {
@@ -97,6 +100,38 @@
     }
     .first_section .bunner-slider .blog-slider__content .line {
         margin-bottom: 1rem !important;
+    }
+    .maintenance .maintenance-box {
+        .maintenance_img .mainten-r_side {
+            width: 50px;
+            top: 20%;
+            right: 20%;
+        }
+        .maintenance_img .mainten-middle {
+            width: 70px;
+        }
+        .maintenance_img .mainten-l_side {
+            width: 50px;
+            bottom: 35%;
+            left: 19%;
+        }
+        .maintenance_content {
+            width: 250px;
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    } 
+    .testimonials .blog-slider__img {
+        width: 150px !important;
+        height: 150px !important;
+        top: -107px !important;
+    }
+    .testimonials .blog-slider__content {
+        top: 100px !important;
     }
 }
 @media (min-width: 760px) and ( max-width: 1000px){
