@@ -140,7 +140,8 @@
             position: relative;
             border-radius: 0.5rem;
             padding: 2rem;
-            height: 350px;
+            min-height: 360px;
+            height: auto;
             border: 1px solid #21aaff;
             box-shadow: 0px 0px 10px 0px rgba(6, 9, 34, 0.1);
             transition: all 0.3s ease-in-out 0s;

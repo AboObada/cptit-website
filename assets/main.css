@@ -484,7 +484,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 .footer .content .social-links a.twitt:hover {
-  background-color: #1DA1F2;
+  background-color: #000;
   border: none;
   transition: all 0.5s ease-in-out;
 }
@@ -1665,7 +1665,7 @@ a {
   opacity: 0.25;
 }
 .contact .location-side p {
-  font-family: cursive;
+  font-family: var(--englishBoldFont);
   font-size: 20px;
   color: #dd9e18;
   margin-bottom: 2.5rem;
@@ -2591,7 +2591,8 @@ a {
   position: relative;
   border-radius: 0.5rem;
   padding: 2rem;
-  height: 350px;
+  min-height: 360px;
+  height: auto;
   border: 1px solid #21aaff;
   box-shadow: 0px 0px 10px 0px rgba(6, 9, 34, 0.1);
   transition: all 0.3s ease-in-out 0s;
