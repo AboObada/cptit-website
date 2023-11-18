@@ -1,19 +1,19 @@
 //  font-family
 @font-face {
     font-family: nexa-light;
-    src: url(../../fonts/Nexa-Light.otf);
+    src: url(../assets/fonts/Nexa-Light.otf);
 }
 @font-face {
     font-family: nexa-bold;
-    src: url(../../fonts/Nexa-Bold.otf);
+    src: url(../assets/fonts/Nexa-Bold.otf);
 }
 @font-face {
     font-family: marai-regular;
-    src: url(../../fonts/Almarai/Almarai-Regular.ttf);
+    src: url(../assets/fonts/Almarai/Almarai-Regular.ttf);
 }
 @font-face {
     font-family: marai-bold;
-    src: url(../../fonts/Almarai/Almarai-Bold.ttf);
+    src: url(../assets/fonts/Almarai/Almarai-Bold.ttf);
 }
 :root {
     --englishLightFont: nexa-light;
@@ -33,6 +33,6 @@
     scroll-behavior: smooth;
   }
 // font-size
-:root {
+body {
 
 }

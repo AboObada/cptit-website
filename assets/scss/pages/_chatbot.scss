@@ -147,11 +147,12 @@
   padding: 15px 5px;
   text-align: center;
   font-weight: 400;
+  font-family: var(--englishBoldFont);
   line-height: 1.5;
-  color: var(--color-secondary);
+  color: var(--secondcolor);
   background-color: #f7f7f7;
   margin: 0;
-  font-size: var(--font-size-text-v2);
+  // font-size: var(--font-size-text-v2);
   border-bottom: 1px solid #dcdcdc;
   border-radius:  0 0 5px 5px;
   transition: all 0.5s;
@@ -161,7 +162,7 @@
   //   border-left: 2px solid var(--color-primary);
   // }
   &.welcom {
-    color: var(--color-primary);
+    color: var(--maincolor);
     font-weight: 600;
     letter-spacing: 1px;
   }
@@ -290,7 +291,7 @@
   .user_avatar {
     position: absolute;
     top: 0;
-    right: -8px;
+    right: -58px;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -302,7 +303,7 @@
   }
   .user_message {
     position: relative;
-    margin-right: 45px;
+    // margin-right: 45px;
     float: right;
     background: #42a5f5;
     color: #eceff1;
