@@ -163,6 +163,7 @@
     .white-logo {
         margin: 2rem 0;
         img {
+            pointer-events: none;
             filter: brightness(0) invert(1);
         }
     }
@@ -212,6 +213,11 @@
             }
             &.youtube:hover {
                 background-color: #c4302b;
+                border: none;
+                transition: all 0.5s ease-in-out;
+            }
+            &.linked:hover {
+                background-color: #0077b5;
                 border: none;
                 transition: all 0.5s ease-in-out;
             }

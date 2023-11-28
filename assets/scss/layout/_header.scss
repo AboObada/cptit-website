@@ -5,13 +5,8 @@
     background-color: #fff !important;
     box-shadow: 0 0 15px rgb(0 0 0 / 17%);
     .navbar-brand {
-        // .logo_w {
-        //     display: none !important;
-        // }
-        // .logo_d {
-        //     display: block !important;
-        // }
         img {
+            pointer-events: none;
             filter: unset !important;
         }
     }

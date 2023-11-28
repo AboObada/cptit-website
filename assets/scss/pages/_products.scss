@@ -19,6 +19,7 @@
                     height: auto;
                     display: block;
                     transform: scale(1);
+                    pointer-events: none;
                     transition: .5s;
                     -webkit-filter: inherit;
                 }
